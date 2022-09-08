@@ -7,7 +7,7 @@ def escalaMaior(nota):
     # Montar Escalas Maiores:
     # Sequência -> T T S T T T S           T = Tom ("pula uma nota")
     # Exemplo ->  C D E F G A B C          S = SemiTom ("proxima nota")
-    return
+    
 
 
 def escalaMenor(nota):
@@ -38,7 +38,7 @@ def criarTriade(nota):
         triade = [e_menor[e_menor.index(nota)],
                   e_menor[e_menor.index(nota) + 2],
                   e_menor[e_menor.index(nota) + 4]]
-    return
+    
 
 
 def criarTetrade(nota):
@@ -57,7 +57,7 @@ def criarTetrade(nota):
                    e_menor[e_menor.index(nota) + 2],
                    e_menor[e_menor.index(nota) + 4],
                    e_menor[e_menor.index(nota) + 6]]
-    return
+    
 
 
 campo = ('C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#',
