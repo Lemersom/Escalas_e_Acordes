@@ -19,7 +19,7 @@ def escalaMenor(nota):
     # Montar Escalas Menores:
     # Sequência -> T S T T S T T           T = Tom ("pula uma nota")
     # Exemplo ->  A B C D E F G A          S = SemiTom ("proxima nota")
-    return
+    
 
 
 def criarTriade(nota):
